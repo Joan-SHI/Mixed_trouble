@@ -1,4 +1,4 @@
-<a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-theme-for-web-developers/" target="_blank"><img src="https://themes.3rdwavemedia.com/wp-content/uploads/2018/07/free-bootstrap-portfolio-theme-for-web-developers.jpg" alt="Developer Theme" width="750" /></a>
+<a href="https://www.instructables.com/id/How-to-Milk-Cows/" target="_blank"><img src="https://cdn.instructables.com/FAN/BGSM/IXQFSGKM/FANBGSMIXQFSGKM.LARGE.jpg?auto=webp&width=525" alt="Developer Theme" width="750" /></a>
 
 ## Theme Details & Demo
 
