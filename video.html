@@ -27,6 +27,7 @@
     
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- Capture JS -->
     
 </head> 
 
@@ -34,51 +35,29 @@
     <!-- ******HEADER****** --> 
     <header class="header">
         <div class="container clearfix">                       
-            <!-- <img class="profile-image img-fluid float-left" src="assets/images/profile.png" alt="James Lee" /> -->
-            <div class="profile-content">
+            <img class="profile-image img-fluid float-left" src="assets/images/profile.png" alt="James Lee" />
+            <div class="profile-content float-left">
                 <h1 class="name">Farm Training</h1>
                 <h2 class="desc">Skills for farm workers</h2>   
                 <ul class="social list-inline">
                     
                 </ul> 
             </div><!--//profile-->
-              
+            <a class="btn btn-cta-primary float-right" href="https://themes.3rdwavemedia.com/" target="_blank"><i class="fas fa-paper-plane"></i> Help!</a>              
         </div><!--//container-->
     </header><!--//header-->
     
     <div class="container sections-wrapper">
         <div class="row">
-            <div class="primary col-lg-12 col-12">
+            <div class="primary col-lg-8 col-12">
                 <section class="about section">
                     <div class="section-inner">
                         <h2 class="heading">Take Pic</h2>
-                        
-                        <img src="assets/images/camera_icon.png">          
-			<video id="video" width="640" height="480" autoplay></video>
-			<button id="snap">Snap Photo</button>
-			<canvas id="canvas" width="640" height="480"></canvas>
-
-
-			<script>
-			  // Grab elements, create settings, etc.
-			    var video = document.getElementById('video');
-
-			      // Get access to the camera!
-			        if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
-				    // Not adding `{ audio: true }` since we only want video now
-				            navigator.mediaDevices.getUserMedia({ video: true }).then(function(stream) {
-					            //video.src = window.URL.createObjectURL(stream);
-						           video.srcObject = stream;
-							          video.play();
-								            });
-									        }
-										</script>
+                        <a class="btn btn-cta-primary float-right" href="pic.html" target="_blank"><i class="fas fa-paper-plane"></i> Help!</a>             
                         <div class="content">
                             <p>Choose an image and then this training app will automatically show you the correct training video for the equipment</p>
                          
                         </div><!--//content-->
-                        <iframe width="1200" height="770" src="assets/images/video.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <input type="file" accept="image/*;capture=camera">
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
     
@@ -89,7 +68,9 @@
             </div><!--//secondary-->    
         </div><!--//row-->
     </div><!--//masonry-->
- 
+
+
+
     <!-- Javascript -->          
     <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
